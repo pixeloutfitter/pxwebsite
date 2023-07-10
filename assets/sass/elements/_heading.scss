@@ -1,0 +1,110 @@
+/*----------------------------------------*/
+/*   TITLE CSS START
+/*----------------------------------------*/
+.sec-title {
+    font-weight: 900;
+    font-size: 146px;
+    line-height: 1;
+    color: $gray-4;
+    margin: 0;
+    text-transform: uppercase;
+    
+    @include short-query(992px , 1199px) {
+        font-size: 90px;
+    }
+    @include short-query(768px , 991px) {
+        font-size: 72px;
+    }
+    @include media-query(767px) {
+        font-size: 53px;
+    }
+    @include media-query(490px) {
+        font-size: 38px;
+    }
+}
+.sec-title-2 {
+    font-weight: 900;
+    font-size: 110px;
+    color: $black-2;
+    margin-bottom: 48px;
+    
+    @include short-query(992px , 1199px) {
+        font-size: 84px;
+    }
+    @include short-query(768px , 991px) {
+        font-size: 72px;
+        }
+    @include media-query(767px) {
+        font-size: 53px;
+    }
+    @include media-query(490px) {
+        font-size: 28px;
+    }
+}
+.sec-title-3{
+    text-align: center;
+    p{
+        font-family: $font-primary;
+        font-weight: 600;
+        font-size: 23px;
+        color: $gray-4;
+        margin-bottom: 8px;
+        @include media-query(767px) {
+            font-size: 20px;
+        }
+        @include media-query(490px) {
+            font-size: 16px;
+        }
+    }
+    h2{
+        font-weight: 900;
+        font-size: 57px;
+        color: $gray-3;
+        margin: 0;
+        @include short-query(768px , 991px) {
+            font-size: 48px;
+        }
+        @include media-query(767px) {
+            font-size: 38px;
+        }
+        @include media-query(490px) {
+            font-size: 32px;
+        }
+    }
+}
+.dark{
+    .sec-title-3{
+        h2{
+            color: $white-2;
+
+        }
+    }
+}
+.sec-title-4{
+    h2{
+        font-weight: 700;
+        font-size: 33px;
+        color: $black-2;
+        margin-bottom: 32px;
+    }
+}
+.dark{
+    .sec-title-4{
+        h2{
+            color: $white-2;
+
+        }
+    }
+}
+.light-text-1{
+    font-weight: 600;
+    font-size: 23px;
+    color: $gray-4;
+    margin:0;
+    @include media-query(767px) {
+        font-size: 16px;
+    }
+    @include media-query(490px) {
+        font-size: 14px;
+    }
+}

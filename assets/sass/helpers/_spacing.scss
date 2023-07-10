@@ -1,0 +1,298 @@
+/*----------------------------------------*/
+/*  03. SPACE CSS START
+/*----------------------------------------*/
+.pb-80 {
+    padding-bottom: 80px;
+    @include short-query(992px , 1199px) {
+        padding-bottom: 60px;
+    }
+    @include short-query(768px , 991px) {
+        padding-bottom: 40px;
+    }
+    @include media-query(767px) {
+        padding-bottom: 28px;
+    }
+}
+.pb-70 {
+    padding-bottom: 70px;
+    @include short-query(992px , 1199px) {
+        padding-bottom: 52px;
+    }
+    @include short-query(768px , 991px) {
+        padding-bottom: 38;
+    }
+    @include media-query(767px) {
+        padding-bottom: 28px;
+    }
+}
+.pb-100 {
+    padding-bottom: 100px;
+    @include short-query(992px , 1199px) {
+        padding-bottom: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-bottom: 80px;
+    }
+    @include media-query(767px) {
+        padding-bottom: 60px;
+    }
+    @include media-query(490px) {
+        padding-bottom: 40px;
+    }
+}
+
+
+.pb-110 {
+    padding-bottom: 110px;
+    @include short-query(992px , 1199px) {
+        padding-bottom: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-bottom: 80px;
+    }
+    @include media-query(767px) {
+        padding-bottom: 60px;
+    }
+}
+
+
+.pb-120 {
+    padding-bottom: 120px;
+    @include short-query(992px , 1199px) {
+        padding-bottom: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-bottom: 80px;
+    }
+    @include media-query(767px) {
+        padding-bottom: 60px;
+    }
+}
+
+
+.pb-130 {
+    padding-bottom: 130px;
+    @include short-query(992px , 1199px) {
+        padding-bottom: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-bottom: 80px;
+    }
+    @include media-query(767px) {
+        padding-bottom: 60px;
+    }
+}
+
+
+.pb-140 {
+    padding-bottom: 140px;
+    @include short-query(992px , 1199px) {
+        padding-bottom: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-bottom: 80px;
+    }
+    @include media-query(767px) {
+        padding-bottom: 60px;
+    }
+}
+
+
+.pb-150 {
+    padding-bottom: 150px;
+    @include short-query(992px , 1199px) {
+        padding-bottom: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-bottom: 80px;
+    }
+    @include media-query(767px) {
+        padding-bottom: 60px;
+    }
+}
+
+
+.pb-200 {
+    padding-bottom: 200px;
+    @include short-query(992px , 1199px) {
+        padding-bottom: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-bottom: 80px;
+    }
+    @include media-query(767px) {
+        padding-bottom: 60px;
+    }
+}
+
+
+.pt-42 {
+    padding-top: 40px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+    @include short-query(992px , 1199px) {
+        padding-top: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-top: 80px;
+    }
+    @include media-query(767px) {
+        padding-top: 60px;
+    }
+    @include media-query(490px) {
+        padding-top: 40px;
+    }
+    
+}
+
+
+
+.pt-110 {
+    padding-top: 110px;
+    @include short-query(992px , 1199px) {
+        padding-top: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-top: 80px;
+    }
+    @include media-query(767px) {
+        padding-top: 60px;
+    }
+}
+
+
+.pt-120 {
+    padding-top: 120px;
+    @include short-query(992px , 1199px) {
+        padding-top: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-top: 80px;
+    }
+    @include media-query(767px) {
+        padding-top: 60px;
+    }
+}
+
+
+
+.pt-130 {
+    padding-top: 130px;
+    @include short-query(992px , 1199px) {
+        padding-top: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-top: 80px;
+    }
+    @include media-query(767px) {
+        padding-top: 60px;
+    }
+}
+
+
+.pt-140 {
+    padding-top: 140px;
+    @include short-query(992px , 1199px) {
+        padding-top: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-top: 80px;
+    }
+    @include media-query(767px) {
+        padding-top: 60px;
+    }
+}
+.pt-80{
+    padding-top: 80px;
+
+}
+.pl-60{
+    padding-left: 60px;
+}
+
+
+.pt-150 {
+    padding-top: 150px;
+    @include short-query(992px , 1199px) {
+        padding-top: 90px;
+    }
+    @include short-query(768px , 991px) {
+        padding-top: 80px;
+    }
+    @include media-query(767px) {
+        padding-top: 60px;
+    }
+}
+.pt-200 {
+    padding-top: 200px;
+    @include short-query(992px , 1199px) {
+        padding-top: 150px;
+    }
+}
+
+
+.sp-x {
+    padding-left: 100px;
+    padding-right: 100px;
+    @include short-query(992px , 1199px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    @include short-query(768px , 991px) {
+        padding-left: 30px;
+        padding-right: 30px;;
+    }
+    @include media-query(767px) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mt-80 {
+    margin-top: 80px;
+    @include short-query(992px , 1199px) {
+        margin-top: 60px;
+    }
+    @include short-query(768px , 991px) {
+        margin-top: 40px;
+    }
+    
+}
+.mt-170 {
+    margin-top: 170px;
+    @include short-query(992px , 1199px) {
+        margin-top: 140px;
+    }
+    @include short-query(768px , 991px) {
+        margin-top: 100px;
+    }
+    @include media-query(767px) {
+        margin-top: 60px;
+    }
+}
+
+.ht-200 {
+    padding-top: 200px;
+    @include short-query(992px , 1199px) {
+        padding-top: 180px;
+    }
+    @include short-query(768px , 991px) {
+        padding-top: 160px;
+    }
+    @include media-query(767px) {
+        padding-top: 130px;
+    }
+}

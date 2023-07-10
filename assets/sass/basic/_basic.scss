@@ -1,0 +1,173 @@
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+ul.list-style,
+ol.list-style {
+    margin: -10px 0;
+}
+
+ul.list-style li,
+ol.list-style li {
+    margin: 10px 0;
+}
+
+ul.list-style li::marker,
+ol.list-style li::marker {
+    color: $accent-2;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@media  (min-width: 1500px){
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .container {
+        max-width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+label{
+    &.error{
+        padding-top: 15px;
+        color:rgb(139, 15, 15);
+    }
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row>[class*="col"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row.g-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row.g-0>[class*="col"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*-------------------------
+    Typography
+-------------------------*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: $font-primary;
+    color: $black-3;
+    background: $white-2;
+    font-weight: 400;
+    background-color: $white;
+    height: 100%;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    &.dark{
+        background: $black-1;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+address,
+p,
+pre,
+blockquote,
+table,
+hr {
+    margin: 0 0 10px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    a {
+        color: inherit;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $accent-2;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: $black-2;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 8px 0;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: unset;
+
+    &:hover {
+        color: $accent-2;
+    }
+}
+
+span {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+}
